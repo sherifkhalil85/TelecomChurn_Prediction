@@ -4,3 +4,5 @@ numpy             # Numerical operations
 
 scikit-learn      # ML models, preprocessing
 joblib            # Model serialization
+category-encoders   # For Pipeline
+xgboost            # for Pipline
