@@ -9,7 +9,7 @@ import numpy as np
 # ----------------------------
 @st.cache_resource
 def load_classification_pipeline():
-    return joblib.load("pipeline.pkl")
+    return joblib.load("pipelineBackup.pkl")
 
 @st.cache_resource
 def load_clustering_pipeline():
